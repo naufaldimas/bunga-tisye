@@ -22,7 +22,7 @@ body{
 @keyframes glow{
     0%, 100%{
         color: #fff;
-        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+        text-shadow: 0 0 12px #ffb8bf, 0 0 50px #ffb8bf, 0 0 100px #ffb8bf;
     }
     10%, 90%{
         color: #111;
@@ -68,7 +68,7 @@ body{
 .button a{
     text-decoration: none;
     font-size: 1rem;
-    color: #111;
+    color: #2c2c2c;
 }
 
 @media screen and (max-width:574px){
@@ -85,4 +85,27 @@ body{
     .button a{
         font-size: .5rem;
     }
+}
+
+/* CSS */
+.button-34 {
+  background: #ffb8bf;
+  border-radius: 999px;
+  box-shadow: #ffb8bf 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
 }
